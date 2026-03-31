@@ -5,32 +5,33 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "Optimizing 5G Networks",
+    category: "M.S. Thesis Project",
+    tools: "Deep Learning, Network Slicing, CNN, Random Forest",
+    image: "/images/thesis.png",
+    imagePosition: "left center",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "MotelMed",
+    category: "Small Business Website",
+    tools:
+      "HTML5, CSS3 (Flexbox, media queries, CSS variables),\nVanilla JavaScript (ES6), custom slider + autoplay logic,\nSVG assets, custom fonts + Google Fonts fallback,\nResponsive design, accessibility patterns, asset optimization.",
+    image: "/images/motelmed.png",
+    link: "https://motelmed.com",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Personal Wedding Website",
+    category: "Bilingual Wedding Platform",
+    tools:
+      "React, TypeScript, Vite,\nTailwind CSS, Framer Motion,\nCanvas API, RSVP workflow,\nPIN-protected admin, analytics, live metrics.",
+    image: "/images/wedding.png",
+    link: "https://milanpatel98.github.io/milanjenniferweds/",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Blender 3D Character",
+    category: "Current Work",
+    tools: "Blender, 3D Modeling, Character Customization",
+    image: "/images/blender.png",
   },
 ];
 
@@ -117,6 +118,7 @@ const Work = () => {
                         image={project.image}
                         alt={project.title}
                         link={project.link}
+                        imagePosition={project.imagePosition}
                       />
                     </div>
                   </div>

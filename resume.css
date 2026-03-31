@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f3f3;
+  color: #111;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.resume {
+  padding: 8px 0 18px;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto 10px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 33% 67%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+}
+
+.left {
+  padding: 24px 18px;
+  border-right: 1px solid #ddd;
+}
+
+.right {
+  padding: 22px 22px 18px;
+}
+
+.name-block {
+  margin-bottom: 22px;
+}
+
+.name-block h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 42px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+
+.block {
+  margin-bottom: 12px;
+}
+
+.block h2 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  letter-spacing: 2.4px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.block p {
+  margin: 0 0 4px;
+  font-size: 10.5px;
+  line-height: 1.35;
+}
+
+.dot-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dot-list li {
+  display: inline;
+  font-size: 10px;
+  line-height: 1.34;
+}
+
+.dot-list li::after {
+  content: " \2022 ";
+}
+
+.dot-list li:last-child::after {
+  content: "";
+}
+
+.photo-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.photo-wrap img {
+  width: 128px;
+  height: 158px;
+  object-fit: cover;
+  border: 1px solid #d0d0d0;
+}
+
+.role-head {
+  margin-bottom: 10px;
+}
+
+.role-head h3 {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.role-head h4 {
+  margin: 2px 0 0;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.edu-item {
+  margin-bottom: 10px;
+}
+
+.edu-item h3 {
+  margin: 0;
+  font-size: 10.5px;
+  line-height: 1.25;
+}
+
+.edu-item ul {
+  margin: 2px 0 0;
+  padding-left: 13px;
+}
+
+.edu-item li {
+  margin: 0 0 1px;
+  font-size: 9.5px;
+  line-height: 1.2;
+}
+
+.exp-item {
+  margin-bottom: 8px;
+}
+
+.date {
+  margin: 0 0 3px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.exp-item ul {
+  margin: 2px 0 0;
+  padding-left: 16px;
+}
+
+.exp-item li {
+  margin: 0 0 1px;
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 9mm;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .resume {
+    padding: 0;
+  }
+
+  .page {
+    width: auto;
+    height: auto;
+    min-height: auto;
+    margin: 0;
+    box-shadow: none;
+    page-break-after: auto;
+    overflow: visible;
+  }
+}

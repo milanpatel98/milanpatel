@@ -15,58 +15,58 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Business Analyst</h4>
+                <h5>Oceanside Hotel Ventures LLC</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Since Jun 2025, driving financial reporting, PO lifecycle
+              management, and data-driven insights using SAP and Power BI to
+              support business operations and decision-making.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Business Analyst Intern</h4>
+                <h5>IntelTek Inc</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2024-25</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              From Oct 2024 to Jun 2025, analyzed business processes, conducted
+              stakeholder meetings, and supported strategic improvements through
+              structured reporting and operational analysis.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Data Administrator</h4>
+                <h5>Radhika Shtam, Inc.</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              From Sep 2024 to Dec 2024, managed databases, ensured data
+              integrity, and generated cross-departmental reports to improve
+              information quality and decision support across teams.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>M.S. Computer Science</h4>
+                <h5>California State University San Marcos</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2021-24</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Focused on machine learning, data science, database systems,
+              full-stack software engineering, and cloud-native development
+              with tools including Python, React, Node.js, SQL, MongoDB, AWS,
+              Docker, Git, and Jenkins.
             </p>
           </div>
         </div>

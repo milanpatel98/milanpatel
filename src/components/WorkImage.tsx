@@ -6,6 +6,7 @@ interface Props {
   alt?: string;
   video?: string;
   link?: string;
+  imagePosition?: string;
 }
 
 const WorkImage = (props: Props) => {
@@ -36,7 +37,11 @@ const WorkImage = (props: Props) => {
             <MdArrowOutward />
           </div>
         )}
-        <img src={props.image} alt={props.alt} />
+        <img
+          src={props.image}
+          alt={props.alt}
+          style={props.imagePosition ? { objectPosition: props.imagePosition } : undefined}
+        />
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>
     </div>

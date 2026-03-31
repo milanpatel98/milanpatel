@@ -2,6 +2,7 @@ import * as THREE from "three";
 import { DRACOLoader, GLTF, GLTFLoader } from "three-stdlib";
 import { setCharTimeline, setAllTimeline } from "../../utils/GsapScroll";
 import { decryptFile } from "./decrypt";
+import { characterConfig } from "../characterConfig";
 
 const setCharacter = (
   renderer: THREE.WebGLRenderer,
@@ -53,8 +54,14 @@ const setCharacter = (
             resolve(gltf);
             setCharTimeline(character, camera);
             setAllTimeline();
-            character!.getObjectByName("footR")!.position.y = 3.36;
-            character!.getObjectByName("footL")!.position.y = 3.36;
+            const findFirstByName = (names: readonly string[]) =>
+              names
+                .map((n) => character.getObjectByName(n))
+                .find((obj) => obj != null) || null;
+            const footR = findFirstByName(characterConfig.rightFootNames);
+            const footL = findFirstByName(characterConfig.leftFootNames);
+            if (footR) footR.position.y = characterConfig.footYOffset;
+            if (footL) footL.position.y = characterConfig.footYOffset;
 
             // Monitor scale is handled by GsapScroll.ts animations
 

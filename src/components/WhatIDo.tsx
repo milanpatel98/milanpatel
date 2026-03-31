@@ -124,11 +124,11 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>BUSINESS OPTIMIZATION</h3>
+              <h4>AI-Led Efficiency and Decision Support</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                I apply automation and analytics to improve processes, reduce
+                manual effort, and support faster, data-driven business decisions.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

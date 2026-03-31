@@ -11,27 +11,27 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://www.linkedin.com/in/milanpatel72/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                LinkedIn — milanpatel72
               </a>
             </p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
+              M.S Computer Science, California State University San Marcos,
+              California, USA — 2021-2024
             </p>
             <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
+              B.Tech Computer Engineering, SNPIT & RC, India — 2015-2019
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/milanpatel98"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +40,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://www.linkedin.com/in/milanpatel72/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,16 +49,14 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:milanpatel72@icloud.com"
               data-cursor="disable"
               className="contact-social"
             >
-              YouTube <MdArrowOutward />
+              Mail <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/leftbraincoder/"
+              href="https://www.instagram.com/_.milanpatel?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -69,7 +67,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed and Developed <br /> by <span>Milan Patel</span>
             </h2>
             <h5>
               <MdCopyright /> 2026
