@@ -3,12 +3,14 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "Optimizing 5G Networks",
     category: "M.S. Thesis Project",
     tools: "Deep Learning, Network Slicing, CNN, Random Forest",
-    image: "/images/thesis.png",
+    image: `${baseUrl}images/thesis.png`,
     imagePosition: "left center",
   },
   {
@@ -16,7 +18,7 @@ const projects = [
     category: "Small Business Website",
     tools:
       "HTML5, CSS3 (Flexbox, media queries, CSS variables),\nVanilla JavaScript (ES6), custom slider + autoplay logic,\nSVG assets, custom fonts + Google Fonts fallback,\nResponsive design, accessibility patterns, asset optimization.",
-    image: "/images/motelmed.png",
+    image: `${baseUrl}images/motelmed.png`,
     link: "https://motelmed.com",
   },
   {
@@ -24,14 +26,14 @@ const projects = [
     category: "Bilingual Wedding Platform",
     tools:
       "React, TypeScript, Vite,\nTailwind CSS, Framer Motion,\nCanvas API, RSVP workflow,\nPIN-protected admin, analytics, live metrics.",
-    image: "/images/wedding.png",
+    image: `${baseUrl}images/wedding.png`,
     link: "https://milanpatel98.github.io/milanjenniferweds/",
   },
   {
     title: "Blender 3D Character",
     category: "Current Work",
     tools: "Blender, 3D Modeling, Character Customization",
-    image: "/images/blender.png",
+    image: `${baseUrl}images/blender.png`,
   },
 ];
 
