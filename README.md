@@ -4,7 +4,7 @@ This repository contains the source code for Milan Patel's personal 3D portfolio
 
 Live site: [https://milanpatel98.github.io/milanpatel/](https://milanpatel98.github.io/milanpatel/)
 
-![Portfolio Preview](public/images/preview1.png)
+![Milan Patel Profile](public/images/profile.png)
 
 ## Table of Contents
 
