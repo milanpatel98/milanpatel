@@ -332,14 +332,61 @@
   }
 
   .carousel-content {
+    align-items: stretch;
     gap: 20px;
+  }
+
+  .carousel-info {
+    flex-direction: column;
+    gap: 12px;
   }
 
   .carousel-slide {
     padding: 30px 0;
   }
 
+  .carousel-number h3 {
+    font-size: 32px;
+  }
+
+  .carousel-tools p {
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  .carousel-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
+  }
+
   .work-image img {
     max-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .work-section h2 {
+    font-size: 34px;
+  }
+
+  .carousel-slide {
+    padding: 24px 0;
+  }
+
+  .carousel-details h4 {
+    font-size: 18px;
+  }
+
+  .carousel-category {
+    font-size: 14px;
+  }
+
+  .carousel-tools .tools-label {
+    font-size: 12px;
+  }
+
+  .work-image-in {
+    aspect-ratio: 16 / 11;
   }
 }
