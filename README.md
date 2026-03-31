@@ -1,8 +1,8 @@
-# 3D Portfolio Website
+# Milan Patel - 3D Portfolio Website
 
-This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
+This repository contains the source code for Milan Patel's personal 3D portfolio, built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions for a modern portfolio experience.
 
-Live site: *(add your deployed URL here)*
+Live site: [https://milanpatel98.github.io/milanpatel/](https://milanpatel98.github.io/milanpatel/)
 
 ![Portfolio Preview](public/images/preview1.png)
 
@@ -90,7 +90,7 @@ Live site: *(add your deployed URL here)*
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/milanpatel98/milanpatel.git
    cd 3d-portfolio
    ```
 
