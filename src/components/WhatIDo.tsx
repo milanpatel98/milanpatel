@@ -87,19 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>AI RESEARCH & AUTOMATION</h3>
+              <h4>From Mental Health AI to Workflow Intelligence</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                Founder of MindBridge AI — researching LLM-based early detection
+                of depression and anxiety from conversation, targeting JMIR Mental
+                Health. Also help organizations automate internal and
+                customer-facing workflows so teams ship faster with less manual work.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
+                <div className="what-tags">Fine-tuned LLMs</div>
+                <div className="what-tags">NLP &amp; NLU</div>
                 <div className="what-tags">RAG &amp; retrieval</div>
                 <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
+                <div className="what-tags">Workflow design</div>
                 <div className="what-tags">Product strategy</div>
               </div>
               <div className="what-arrow"></div>

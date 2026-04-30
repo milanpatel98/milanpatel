@@ -7,6 +7,14 @@ const baseUrl = import.meta.env.BASE_URL;
 
 const projects = [
   {
+    title: "MindBridge AI",
+    category: "AI Research Platform · Solo Founder",
+    tools:
+      "Fine-tuned LLMs, NLP, Python, React, Vercel,\nEarly depression & anxiety detection from natural conversation,\nPrivacy-first architecture, designed for low-resource & underserved settings,\nTargeting publication in JMIR Mental Health / Nature Digital Medicine.",
+    image: `${baseUrl}images/mindbridge-ai.png`,
+    link: "https://mindbridge-milan.vercel.app",
+  },
+  {
     title: "Optimizing 5G Networks",
     category: "M.S. Thesis Project",
     tools: "Deep Learning, Network Slicing, CNN, Random Forest",
